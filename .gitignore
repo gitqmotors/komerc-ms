@@ -59,10 +59,10 @@ node_modules/
 /config/dev_domain.php
 
 # folder for uploaded media files (images, videos ...)
-/public_html/upload/*
-/public_html/uploads/*
-
-/public_html/img/*
+#/public_html/upload/*
+#/public_html/uploads/*
+#
+#/public_html/img/*
 
 # file robots.txt for production
 /public_html/robots.txt
