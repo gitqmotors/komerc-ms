@@ -1,0 +1,100 @@
+.ymap-container1 {
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+    cursor: pointer;
+    background: url(/img/yandex-before-load.jpg) #fff no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -webkit-box-shadow: 0 0 2em 0 rgb(0 0 0 / 20%);
+    box-shadow: 0 0 2em 0 rgb(0 0 0 / 20%);
+}
+
+.cartablock>.container{
+    flex-wrap: wrap;
+}
+
+.complaint-button-wrapper {
+    height: 100%;
+    position: relative;
+    padding: 16px 0px;
+    overflow: hidden;
+}
+.complaint-button a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 16px;
+}
+.complaint-button {
+    font: 14px 'Exo 2', sans-serif;
+    line-height: 18px;
+    background: #e94742;
+    box-shadow: 5px -5px 5px rgb(138 136 136 / 29%);
+    position: fixed;
+    left: -110px;
+    top: 47%;
+    color: white;
+    transform: rotate(
+            -90deg );
+    font-size: 16px;
+    z-index: 9999;
+    border-top: #fff solid 1px;
+    margin: 0;
+    display: block;
+}
+.header-center-menu .modal-form-zaloba{
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .header-center-menu .modal-form-zaloba{
+        display: block;
+    }
+}
+
+@media (max-width: 600px) {
+    .complaint-button{
+        left: -118px;
+    }
+    .complaint-button-wrapper{
+        padding: 8px 0;
+    }
+}
+
+a.markiblock-card > .markiblock-card-img {
+    display: flex;
+    min-height: 112px;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-text {
+    width: 100% !important;
+}
+
+.info-text-wrap:hover .info-text > button {
+    display: block !important;
+}
+
+.info-text > button {
+    font-size: 1rem !important;
+    background-image: linear-gradient(to right,#90EE90 0,#4169E1 100%);
+}
+
+.info-text > span > a {
+    color: revert !important;
+}
+
+.info-text > span > a:hover {
+    text-decoration: underline !important;
+}
+
+@media (min-width: 576px) {
+    .block5 .accordion .info .info-text-wrap .info-text {
+        font-size: 19px !important;
+    }
+    .block5 .accordion .info .info-text-wrap .info-text > button {
+        height: 100% !important;
+    }
+}

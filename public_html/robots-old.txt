@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /agreement/
+Disallow: /ajax/
+Disallow: /css/
+Disallow: /font/
+Disallow: /search/
+Disallow: /?word=*
+Clean-param: cpage
+Disallow: /test/
+Disallow: /spec/diagnostika_hodovoi_besplatno/
+Sitemap: https://r-ms.ru/sitemap.xml
+Host: https://r-ms.ru

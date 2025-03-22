@@ -1,0 +1,315 @@
+$orang: #ff8e00;
+$orang2: #ffcc00;
+$black: #232323;
+$white: #fff;
+$red: #D52B1E;
+$red2: #ff2400;
+$blue: #0039A6;
+$blue2: #047bbf;
+$green: #a0ca4c;
+
+.remontblock {
+    &-img {
+        align-self: center;
+
+        .mbtn {
+            width: 100%;
+            margin-top: 10px;
+        }
+    }
+
+    &-swrap {
+        a {
+            display: block;
+            padding-left: 30px;
+            font-size: 15.5px;
+            margin-bottom: 10px;
+            position: relative;
+            transition: all 0.5s;
+
+            &:hover {
+                color: $blue;
+                transition: all 0.5s;
+            }
+
+            &:before {
+                position: absolute;
+                content: "";
+                width: 20px;
+                height: 20px;
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                background: url("/img/icon/brakerepair.svg") center no-repeat;
+                background-size: contain;
+            }
+        }
+
+        .beto:before {
+            background: url("/img/icon/tehnobslug.svg") center no-repeat;
+            background-size: contain;
+        }
+
+        .betransmissia:before {
+            background: url("/img/icon/transmisia.svg") center no-repeat;
+            background-size: contain;
+        }
+
+        .bedvigatel:before {
+            background: url("/img/icon/dvigatel.svg") center no-repeat;
+            background-size: contain;
+        }
+
+        .beacum:before {
+            background: url("/img/icon/electroob.svg") center no-repeat;
+            background-size: contain;
+        }
+
+        .berul:before {
+            background: url("/img/icon/rul.svg") center no-repeat;
+            background-size: contain;
+        }
+
+        .bepolirovka:before {
+            background: url("/img/icon/pulirovka.svg") center no-repeat;
+            background-size: contain;
+        }
+
+        .bediagnostika:before {
+            background: url("/img/icon/diagnostick.svg") center no-repeat;
+            background-size: contain;
+        }
+
+        .beacpp:before {
+            background: url("/img/icon/corobka.svg") center no-repeat;
+            background-size: contain;
+        }
+
+        .bekuzov:before {
+            background: url("/img/icon/cusremont.svg") center no-repeat;
+            background-size: contain;
+        }
+
+        .behodovoi:before {
+            background: url("/img/icon/remhod.svg") center no-repeat;
+            background-size: contain;
+        }
+
+        .betormoz:before {
+            background: url("/img/icon/tormoz.svg") center no-repeat;
+            background-size: contain;
+        }
+
+        .besteklo:before {
+            background: url("/img/icon/steklo.svg") center no-repeat;
+            background-size: contain;
+        }
+        
+        .bewelding:before {
+            background: url("/img/icon/welding_bl.svg") center no-repeat;
+            background-size: contain;
+        }
+        
+        .becondicioner:before {
+            background: url("/img/icon/condicioner.svg") center no-repeat;
+            background-size: contain;
+        }
+        
+        .bebak:before {
+            background: url("/img/icon/benzobak.svg") center no-repeat;
+            background-size: contain;
+        }
+        
+        .bevihlop:before {
+            background: url("/img/icon/vihlop.svg") center no-repeat;
+            background-size: contain;
+        }
+        
+        .besysohl:before {
+            background: url("/img/icon/sysohl.svg") center no-repeat;
+            background-size: contain;
+        }
+        
+        .bemontag:before {
+            background: url("/img/icon/shinomontag.svg") center no-repeat;
+            background-size: contain;
+        }
+        
+        .bepokraska:before {
+            background: url("/img/icon/pokraska.svg") center no-repeat;
+            background-size: contain;
+        }
+
+        .bephoto:before {
+            background: url("/img/icon/photo.svg") center no-repeat;
+            background-size: contain;
+        }
+
+        .becalc:before {
+            background: url("/img/icon/calc.svg") center no-repeat;
+            background-size: contain;
+        }
+
+        .bezapchasty:before {
+            background: url("/img/icon/zapchasty_bl.svg") center no-repeat;
+            background-size: contain;
+        }
+        
+        .bezapchastyrd:before {
+            background: url("/img/icon/zapchasty.svg") center no-repeat;
+            background-size: contain;
+        }
+
+        .bediagnost:before {
+            background: url("/img/icon/pen-red.svg") center no-repeat;
+            background-size: contain;
+        }
+
+        .becons:before {
+            background: url("/img/icon/vopros-red.svg") center no-repeat;
+            background-size: contain;
+        }
+    }
+}
+
+@media(min-width: 1800px) {
+    .remontblock {
+        &-img {
+            align-self: center;
+
+            .mbtn {
+                margin-top: 10px;
+                margin-left: auto;
+                margin-right: auto;
+                width: auto;
+                display: block;
+                width: 100%;
+                font-size: 16px;
+                padding: 15px;
+            }
+        }
+
+        &-swrap {
+            a {
+                display: block;
+                padding-left: 45px;
+                font-size: 18px;
+                margin-bottom: 14px;
+                position: relative;
+
+                &:before {
+                    width: 28px;
+                    height: 28px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+    .remontblock {
+        &-img {
+            width: 33.33%;
+            margin-left: 33.33%;
+            margin-right: 33.33%;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .remontblock {
+        &-img {
+            width: 50%;
+            margin-left: 0%;
+            margin-right: 0%;
+            margin-bottom: 30px;
+            text-align: center;
+
+            img {
+                max-width: 300px;
+            }
+
+            .mbtn {
+                max-width: 300px;
+            }
+        }
+
+        &-swrap {
+            &-b1 {
+                width: 50%;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .remontblock {
+        &-img {
+            width: 100%;
+            margin-bottom: 30px;
+
+            img {
+                max-width: 300px;
+            }
+
+            .mbtn {
+                max-width: 300px;
+            }
+        }
+
+        &-swrap {
+            &-b1 {
+                width: 50%;
+            }
+
+            &-b2 {
+                width: 50%;
+            }
+
+            &-b3 {
+                display: none;
+            }
+
+            a {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .remontblock {
+        &-img {
+            width: 100%;
+            margin-bottom: 30px;
+
+            img {
+                max-width: 300px;
+            }
+
+            .mbtn {
+                max-width: 300px;
+            }
+        }
+
+        &-swrap {
+            max-width: 260px;
+            margin-right: auto;
+            margin-left: auto;
+            font-size: 15.5px;
+
+            &-b1 {
+                width: 100%;
+            }
+
+            &-b2 {
+                width: 100%;
+            }
+
+            a {
+                font-size: 14px;
+            }
+        }
+    }
+}
